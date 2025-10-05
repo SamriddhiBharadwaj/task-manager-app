@@ -3,7 +3,7 @@ package com.samriddhi.tasks.mappers;
 import com.samriddhi.tasks.domain.dto.TaskListDto;
 import com.samriddhi.tasks.domain.entities.TaskList;
 
-public interface TaskListMapper{
+public interface TaskListMapper {
 
     TaskList fromDto(TaskListDto taskListDto);
 
